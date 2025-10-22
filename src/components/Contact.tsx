@@ -145,7 +145,7 @@ const Contact = () => {
               <CardContent>
                 <p className="text-muted-foreground mb-4">
                   I once wrote a haiku in JavaScript comments that actually improved 
-                  the code's performance. True story! 🚀
+                  the code's performance. True story! 
                 </p>
                 <div className="glass p-4 rounded-lg font-mono text-sm">
                   <div className="text-green-400">// Async calls await</div>
