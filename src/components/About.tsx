@@ -16,7 +16,7 @@ const About = () => {
               <h3 className="text-2xl font-bold mb-4 text-primary">The Developer</h3>
               <p className="text-muted-foreground leading-relaxed">
                 I'm Billy, a passionate software engineer who believes code is poetry in motion. 
-                With over 5 years of crafting digital experiences, I specialize in Flutter, 
+                I'm a recent graduate with 3 years of professional experience plus a 1-year internship, specializing in Flutter, 
                 Firebase, and Kotlin development. My journey began with a simple "Hello World" 
                 and evolved into building applications that impact thousands of users.
               </p>

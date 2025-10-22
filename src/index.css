@@ -62,6 +62,11 @@
   html {
     scroll-behavior: smooth;
   }
+
+  /* Ensure anchor scrolling accounts for fixed header */
+  section {
+    scroll-margin-top: 100px;
+  }
 }
 
 @layer components {

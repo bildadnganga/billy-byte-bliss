@@ -16,22 +16,16 @@ const Resume = () => {
   
   const experience = [
     {
-      title: "Senior Mobile Developer",
+      title: "Software Engineer",
       company: "TechFlow Solutions",
       period: "2022 - Present",
-      description: "Leading mobile app development using Flutter and Kotlin. Built 5+ production apps with 100k+ downloads."
+      description: "Building and maintaining mobile and web apps using Flutter, Kotlin, React, and Firebase. Shipped key features end-to-end and collaborated across teams."
     },
     {
-      title: "Full Stack Developer",
+      title: "Software Engineering Intern",
       company: "Innovation Labs",
-      period: "2020 - 2022",
-      description: "Developed web and mobile applications using React, Node.js, and Firebase. Mentored junior developers."
-    },
-    {
-      title: "Mobile Developer",
-      company: "StartupXYZ",
-      period: "2019 - 2020",
-      description: "Created the company's first mobile app using Flutter. Implemented real-time features with Firebase."
+      period: "2021 - 2022",
+      description: "Completed a year-long internship focused on Flutter and Firebase. Implemented real-time features and contributed to code quality improvements."
     }
   ];
 
@@ -87,9 +81,12 @@ const Resume = () => {
           </Card>
         </div>
         
-        <div className="text-center mt-12">
-          <Button size="lg" className="glass glass-hover glow">
-            Download Full Resume
+        <div className="text-center mt-12 flex items-center justify-center gap-4">
+          <Button size="lg" className="glass glass-hover glow" asChild>
+            <a href="/resume?download=1" target="_blank" rel="noopener noreferrer">Download Resume (PDF)</a>
+          </Button>
+          <Button size="lg" variant="outline" className="glass glass-hover" asChild>
+            <a href="/cv?download=1" target="_blank" rel="noopener noreferrer">Download CV (PDF)</a>
           </Button>
         </div>
       </div>

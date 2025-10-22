@@ -30,15 +30,6 @@ const Hero = () => {
       </div>
       
       <div className="container mx-auto px-6 text-center relative z-10">
-        {/* Avatar */}
-        <div className="mb-8 inline-block">
-          <div className="w-32 h-32 mx-auto rounded-full glass glow p-1 animate-glow">
-            <div className="w-full h-full rounded-full bg-gradient-to-br from-primary to-violet-500 flex items-center justify-center text-4xl font-bold">
-              B
-            </div>
-          </div>
-        </div>
-        
         {/* Main heading */}
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
           <span className="text-gradient">Billy</span>
@@ -64,9 +55,9 @@ const Hero = () => {
         {/* Social Links */}
         <div className="flex justify-center space-x-6 mb-12">
           {[
-            { icon: Github, href: "#", label: "GitHub" },
-            { icon: Linkedin, href: "#", label: "LinkedIn" },
-            { icon: Twitter, href: "#", label: "Twitter" }
+            { icon: Github, href: "https://github.com/gichigig", label: "GitHub" },
+            { icon: Linkedin, href: "https://www.linkedin.com/in/bildad-mwangi-a75a4636b", label: "LinkedIn" },
+            { icon: Twitter, href: "https://x.com/joyshikuy", label: "Twitter" }
           ].map(({ icon: Icon, href, label }) => (
             <a
               key={label}
